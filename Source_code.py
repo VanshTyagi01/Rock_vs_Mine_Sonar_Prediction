@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Data collection and data Processing
-sonar_data= pd.read_csv("Copy of sonar data.csv", header = None)
+sonar_data= pd.read_csv("Sonar_Dataset.csv", header = None)
 
 #seprating data and lables
 X = sonar_data.drop(columns = 60, axis = 1) # dataset without rock or mine column
